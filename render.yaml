@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: interview-prep-backend
+    runtime: python
+    buildCommand: "cd Backend && pip install -r requirements.txt"
+    startCommand: "cd Backend && python app.py"
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: ALLOWED_ORIGINS
+        value: "https://interview-prep.vercel.app,https://your-vercel-domain.vercel.app"

@@ -1,0 +1,26 @@
+# Backend
+Backend/venv/
+Backend/__pycache__/
+Backend/*.pyc
+Backend/.env
+Backend/interview_prep.db
+Backend/interview_prep.db-journal
+Backend/.DS_Store
+
+# Frontend
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env.local
+Frontend/.env.*.local
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/.DS_Store
+
+# Root
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
