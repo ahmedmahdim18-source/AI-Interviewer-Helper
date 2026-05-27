@@ -10,4 +10,4 @@ services:
       - key: ANTHROPIC_API_KEY
         sync: false
       - key: ALLOWED_ORIGINS
-        value: "https://interview-prep.vercel.app,https://your-vercel-domain.vercel.app"
+        value: "http://localhost:5173,http://localhost:5174,https://ai-interviewer-helper-l9fx.vercel.app"
